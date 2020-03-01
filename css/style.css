@@ -1,17 +1,33 @@
 .header {
   width: 100%;
-  background-color: green;
+  padding: 28px 0 10px;
+  background: url('../images/bg-header.gif') repeat-x;
+  box-shadow: 0 0 10px 1px #e3e3e3;
+}
+
+.logo {
+  width: 225px;
+  height: 56px;
+  margin: 0 auto;
+  background: url('../images/logo.png');
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .wrapper {
   width: 970px;
-  margin: 30px auto 40px;
 }
 
 .main {
   float: left;
   width: 660px;
-  background-color: yellow;
 }
 
 .clearfix::after {
@@ -23,10 +39,8 @@
 .sidemenu {
   float: right;
   width: 275px;
-  background-color: pink;
 }
 
 .footer {
   width: 100%;
-  background-color: lime;
 }
