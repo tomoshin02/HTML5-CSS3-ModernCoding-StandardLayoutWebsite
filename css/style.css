@@ -1,0 +1,32 @@
+.header {
+  width: 100%;
+  background-color: green;
+}
+
+.wrapper {
+  width: 970px;
+  margin: 30px auto 40px;
+}
+
+.main {
+  float: left;
+  width: 660px;
+  background-color: yellow;
+}
+
+.clearfix::after {
+  content: '';
+  display:block;
+  clear: both;
+}
+
+.sidemenu {
+  float: right;
+  width: 275px;
+  background-color: pink;
+}
+
+.footer {
+  width: 100%;
+  background-color: lime;
+}
